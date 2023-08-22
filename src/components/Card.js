@@ -3,11 +3,11 @@ import React from 'react'
 export default function Card() {
   return (
     <div>
-    <div class="card mt-3" style={{"maxHeight":"360px","width": "18rem"}}>
-      <img src="https://www.themealdb.com/images/media/meals/lpd4wy1614347943.jpg" class="card-img-top" style={{"maxHeight":"180px","width": "18rem"}} alt="..."/>
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <div className="card mt-3" style={{"maxHeight":"360px","width": "18rem"}}>
+      <img src="https://www.themealdb.com/images/media/meals/lpd4wy1614347943.jpg" className="card-img-top" style={{"maxHeight":"180px","width": "18rem"}} alt="..."/>
+      <div className="card-body">
+        <h5 className="card-title">Card title</h5>
+        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         <div className="container w-100">
           {/* The below javascript is just for quantity representation of the items */}
           <select className="m-2 bg-success rounded">
